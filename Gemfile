@@ -12,4 +12,5 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'awesome_print'
+  gem 'pivotal_git_scripts'
 end
