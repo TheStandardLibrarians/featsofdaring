@@ -3,6 +3,12 @@
 
 # Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
 VAGRANTFILE_API_VERSION = "2"
+# apt-get update
+# apt-get upgrade
+# apt-get install build-essential ruby2.0 ruby2.0-dev libsqlite3-dev
+# gem2.0 install bundler
+# bundle install
+# bundle exec rspec spec
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # All Vagrant configuration is done here. The most common configuration
