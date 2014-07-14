@@ -14,10 +14,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # standardlibrarians OS dependencies
   config.vm.provision("shell",
-                      inline: "apt-get -y update && \
-                               apt-get -y upgrade && \ 
+                      inline: "apt-get -y update
+                               apt-get -y upgrade 
                                apt-get -y install rbenv ruby-build \
-                               git-core vim-nox build-essential htop
+                               git-core vim-nox build-essential htop \
                                rbenv init libssl-dev \
                                postgresql-client-9.3 postgresql-9.3
                                apt-get -y build-dep libxslt libxml2 \
