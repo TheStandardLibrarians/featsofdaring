@@ -12,6 +12,23 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Every Vagrant virtual environment requires a box to build off of.
   config.vm.box = "ubuntu/trusty64"
 
+  # standardlibrarians OS dependencies
+  config.vm.provision("shell",
+                      inline: "apt-get -y update && \
+                               apt-get -y upgrade && \ 
+                               apt-get -y install rbenv ruby-build \
+                               git-core vim-nox build-essential htop
+                               rbenv init libssl-dev
+                               apt-get -y build-dep libxslt libxml2 \
+                               ruby2.0 rails libpq5 \
+                               postgresql-client-9.3 postgresql-9.3
+                               echo 'eval \"$(rbenv init -)i\"' >> /home/vagrant/.bashrc
+                               chown -R vagrant:vagrant /home/vagrant
+                               cd /tmp
+                               git clone https://github.com/sstephenson/ruby-build
+                               cd ruby-build
+                               ./install.sh")
+
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
   # `vagrant box outdated`. This is not recommended.
