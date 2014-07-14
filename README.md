@@ -10,7 +10,7 @@ Download [Vagrant](http://www.vagrantup.com/downloads) and install.
 
 ## Step Three
 
-$ git clone git@github.com:TheStandardLibrarians/featsofdaring.git
+$ git clone https://github.com/TheStandardLibrarians/featsofdaring.git
 
 ## Step Four
 
