@@ -21,12 +21,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # standardlibrarians OS dependencies
   config.vm.provision("shell",
                       inline: "apt-get -y update
-                               apt-get -y upgrade 
+                               apt-get -y upgrade
                                apt-get -y install \
-                               git-core vim-nox build-essential htop nodejs \
-                               postgresql-client-9.3 postgresql-9.3
-                               apt-get -y build-dep libxslt libxml2 \
-                               ruby2.0 rails libpq5")
+                               build-essential ruby2.0 ruby2.0-dev libsqlite3-dev
+                               gem2.0 install bundler")
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
