@@ -16,18 +16,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision("shell",
                       inline: "apt-get -y update
                                apt-get -y upgrade 
-                               apt-get -y install rbenv ruby-build \
-                               git-core vim-nox build-essential htop \
-                               rbenv nodejs libssl-dev \
+                               apt-get -y install \
+                               git-core vim-nox build-essential htop nodejs \
                                postgresql-client-9.3 postgresql-9.3
                                apt-get -y build-dep libxslt libxml2 \
-                               ruby2.0 rails libpq5
-                               echo 'eval \"$(rbenv init -)i\"' >> /home/vagrant/.bashrc
-                               chown -R vagrant:vagrant /home/vagrant
-                               cd /tmp
-                               git clone https://github.com/sstephenson/ruby-build
-                               cd ruby-build
-                               ./install.sh")
+                               ruby2.0 rails libpq5")
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
