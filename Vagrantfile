@@ -23,7 +23,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
                       inline: "apt-get -y update
                                apt-get -y upgrade
                                apt-get -y install \
-                               build-essential ruby2.0 ruby2.0-dev libsqlite3-dev
+                               build-essential ruby2.0 ruby2.0-dev libsqlite3-dev libpq-dev
                                gem2.0 install bundler")
 
   # Disable automatic box update checking. If you disable this, then
