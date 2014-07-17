@@ -16,3 +16,6 @@
 /tmp
 .vagrant
 *.swp
+
+#Ignotre .DS_Store
+*.DS_Store
