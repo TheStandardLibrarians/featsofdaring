@@ -20,11 +20,12 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # standardlibrarians OS dependencies
   config.vm.provision("shell",
-                      inline: "apt-get -y update
-                               apt-get -y upgrade
-                               apt-get -y install \
-                               build-essential git-svn ruby2.0 ruby2.0-dev libsqlite3-dev libpq-dev
-                               gem2.0 install bundler")
+                      inline:  "apt-add-repository ppa:brightbox/ruby-ng-experimental
+				apt-get -y update
+				apt-get -y upgrade
+				apt-get -y install \
+				build-essential git-svn ruby2.1 ruby2.1-dev libsqlite3-dev libpq-dev
+				gem install bundler")
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -34,7 +35,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine. In the example below,
   # accessing "localhost:8080" will access port 80 on the guest machine.
-  # config.vm.network "forwarded_port", guest: 80, host: 8080
+   config.vm.network "forwarded_port", guest: 3000, host: 3000 
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
@@ -47,7 +48,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # If true, then any SSH connections made will enable agent forwarding.
   # Default value: false
-  # config.ssh.forward_agent = true
+   config.ssh.forward_agent = true
 
   # Share an additional folder to the guest VM. The first argument is
   # the path on the host to the actual folder. The second argument is

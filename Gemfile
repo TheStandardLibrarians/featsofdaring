@@ -5,6 +5,8 @@ gem 'sass-rails', '~> 4.0.3'
 gem 'therubyracer'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
+gem 'ripl'
+gem 'rake', '>= 10.3.2'
 
 group :production do
   gem 'pg'
