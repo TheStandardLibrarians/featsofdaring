@@ -7,9 +7,11 @@ Rails.application.routes.draw do
   resources :adventures do
     resources :objectives
   end
+  
+  get '/prettyp' => 'status#prettyp'
 
   # Example of regular route:
-  #   get 'products/:id' => 'catalog#view'i
+  #   get 'products/:id' => 'catalog#view'
 
 # http://guides.rubyonrails.org/routing.html#using-as-in-nested-resources
 
