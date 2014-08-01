@@ -1,5 +1,5 @@
 class StatusController < ApplicationController
   def prettyp
-     head 301
+     head 200
   end
 end
