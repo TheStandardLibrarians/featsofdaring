@@ -27,8 +27,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 				build-essential nodejs git-svn ruby2.1 ruby2.1-dev postgresql-client-9.3 postgresql-9.3 \
 				libsqlite3-dev libpq-dev
 				gem install bundler pivotal_git_scripts
-				mkdir ~/.vim/bundle
-				cd ~/.vim/bundle
+				mkdir /home/vagrant/.vim/bundle
+				cd /home/vagrant/.vim/bundle
 				git clone https://github.com/scrooloose/nerdtree.git")
 
   # Disable automatic box update checking. If you disable this, then
