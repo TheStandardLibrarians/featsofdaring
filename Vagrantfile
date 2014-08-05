@@ -30,7 +30,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 				mkdir /home/vagrant/.vim/bundle
 				cd /home/vagrant/.vim/bundle
 				git clone https://github.com/scrooloose/nerdtree.git")
-
+  config.vm.boot_timeout = 600
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
   # `vagrant box outdated`. This is not recommended.
