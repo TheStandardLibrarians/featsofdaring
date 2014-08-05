@@ -8,6 +8,6 @@ feature "Emerald visits the app" do
     visit "/adventures/1/objectives/1"
     fill_in 'ripl_input', with:  'RUBY_VERSION'
     click_button 'submit'
-    expect(page).to have_content '2.1.2'
+    expect(page).to have_content '2.0.0'
   end
 end
