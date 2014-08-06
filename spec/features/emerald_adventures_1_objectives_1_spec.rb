@@ -14,4 +14,14 @@ feature "Emerald visits adventure 1 objective 1" do
     click_button 'submit'
     expect(current_path).to eq adventure_objective_path(adventure_id: 1, id: 2)
   end
+
+  scenario "fills in form with proper input." do
+    
+    subject { page }
+
+    visit "/adventures/1/objectives/1"
+    fill_in 'ripl_input', with:  "Net::HTTP.get_response(URI(\"http://prettyp.herokuapp.com\")).code"
+    click_button 'submit'
+    expect(page).to have_content "Yay! You learned about 301!"
+  end
 end
