@@ -2,13 +2,17 @@
 
 The Manual of Mob provides guidelines for The Standard Librarians. They are working in a group of people with varied experience levels. Mobbing is similar to pairing but with a roomful of people. The Standard Librarians have found this tool incredibly effective. It keeps everyone on the same page and the project keeps moving forward through aggregated knowledge. Mobbing allows for an incredible learning environment where a beginner or a new comer can help make progress on the project from the very first day.
 
+==================
+
 # Values
 
-## **Kindness • Consideration •Respect**
+## **Kindness • Consideration • Respect**
 
-The Standard Librarians are mobbing in a [round robin](http://en.wikipedia.org/wiki/Round-robin) fashion. Everyone is seated around the room; they physically switch chairs at the end of ten minutes increments of time as recorded by a buzzer. The code is projected on a screen that all can see. The person at the computer is called the Driver. The person to their right is the Navigator. They have established roles and rules to prevent some of the earlier challenges they encountered while mobbing. This document is in flux as they figure out better and more effective ways to work together. 
+The Standard Librarians are mobbing in a [round robin](http://en.wikipedia.org/wiki/Round-robin) fashion. Everyone is seated around the room; they physically switch chairs at the end of ten minute increments of time as recorded by a buzzer. The code is projected on a screen that all can see. The person at the computer is called the Driver. The person to their right is the Navigator. The Standard Librarians have established roles and rules to prevent some of the earlier challenges they encountered while mobbing. This document is in flux as they figure out better and more effective ways to work together. They value effectiveness over efficiency.
 
-These are the roles that we have defined and the expectations for each.
+==================
+
+#### These are the roles that have been defined and the expectations for each.
 
 # Roles
 
