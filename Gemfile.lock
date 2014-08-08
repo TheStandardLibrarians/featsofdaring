@@ -29,6 +29,7 @@ GEM
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
     awesome_print (1.2.0)
+    bond (0.5.1)
     builder (3.2.2)
     capybara (2.4.1)
       mime-types (>= 1.16)
@@ -78,6 +79,8 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rake (10.3.2)
     ref (1.0.5)
+    ripl (0.7.1)
+      bond (~> 0.5.1)
     rspec-core (3.0.2)
       rspec-support (~> 3.0.0)
     rspec-expectations (3.0.2)
@@ -138,6 +141,7 @@ DEPENDENCIES
   pg
   pivotal_git_scripts
   rails (= 4.1.4)
+  ripl
   rspec-rails
   sass-rails (~> 4.0.3)
   spring

@@ -1,1 +1,6 @@
 <%= t("adventure.one.objective1.copy")%>
+
+<%= form_tag request.path, method: :put do -%>
+  <%= text_field_tag :ripl_input -%>
+  <%= submit_tag "submit" %>
+<% end %>
