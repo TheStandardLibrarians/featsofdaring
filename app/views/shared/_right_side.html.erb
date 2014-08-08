@@ -1,0 +1,6 @@
+<div class="col-md-8" >
+ <%= form_tag request.path, method: :put do -%>
+    <%= text_area_tag :ripl_input, 'ripl_input', size: "100x25" -%>
+      <%= submit_tag "submit" %>
+  <% end %> 
+</div>
