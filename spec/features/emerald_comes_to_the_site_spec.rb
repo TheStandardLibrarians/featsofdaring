@@ -5,4 +5,14 @@ feature 'Emerald comes to the site' do
    visit '/'
    expect(page).to have_content 'Adventure 1'
  end
+  scenario 'Emerald goes to adventure 1' do
+    visit '/'
+    click_on 'Adventure 1' 
+    expect(page).to have_content "Adventure 1"
+  end
+  scenario 'Emerald sees the repl' do
+    visit '/'
+    expect(page).to have_css("input")
+  end
+    
 end

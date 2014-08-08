@@ -7,6 +7,7 @@ gem 'therubyracer'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'ripl'
+gem 'bootstrap-sass'
 
 group :production do
   gem 'pg'

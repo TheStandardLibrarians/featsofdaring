@@ -1,1 +1,6 @@
-<h1>Adventure 1</h1>
+<%= link_to "Adventure 1", adventure_path(1) %>
+
+<%= form_tag request.path, method: :put do -%>
+  <%= text_field_tag :ripl_input -%>
+  <%= submit_tag "submit" %>
+<% end %>
