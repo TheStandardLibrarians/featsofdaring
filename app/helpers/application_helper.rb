@@ -1,8 +1,9 @@
 module ApplicationHelper
   def evaluate(params)
-    ::Ripl.shell.eval_input(params) 
+    ::Ripl.shell.eval_input(params)
   end
- private
+
+  private
 
   def commands
     meow_command
@@ -15,7 +16,7 @@ module ApplicationHelper
       redirect_to_objective
     end
   end
- 
+
   def back_command
     if params[:ripl_input] =~ /[bB][aA][cC][kK]+/ && params[:id] != 1
       params[:id] = params[:id].to_i - 1
@@ -24,6 +25,10 @@ module ApplicationHelper
   end
 
   def redirect_to_objective
-   redirect_to action: 'show', adventure_id: params[:adventure_id], id: params[:id]
+    redirect_to(
+                  action: 'show',
+                  adventure_id: params[:adventure_id],
+                  id: params[:id]
+                )
   end
 end

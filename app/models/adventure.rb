@@ -1,5 +1,3 @@
-# class Adventure
-
 class Adventure
   attr_accessor :title, :introduction, :id
   def initialize(title, introduction, id)
@@ -30,5 +28,4 @@ class Adventure
       introduction: 'intro3'
     }
   }
-      
 end
