@@ -5,27 +5,16 @@ class Adventure
     @introduction = introduction
     @id = id
   end
+  def self.find(id)
+    [
+      Adventure.new('Adventure 1', 'Net::HTTP', '1'),
+      Adventure.new('Adventure 2', 'Logger', '2')
+    ].find { |value| value.id.to_i == id }
+  end
 
   def ==(other)
     @title == other.title &&
     @introduction == other.introduction &&
     @id == other.id
   end
-  def self.find(id)
-    @adventures[id]
-  end
-  @adventures = {
-    1 => {
-      title: 'Title1',
-      introduction: 'intro1'
-    },
-    2 => {
-      title: 'Title2',
-      introduction: 'intro2'
-    },
-    3 => {
-      title: 'Title3',
-      introduction: 'intro3'
-    }
-  }
 end
