@@ -10,12 +10,10 @@ describe Adventure do
     end
   end
 
-  describe "Can we find an adventure" do
-    it "looks up an adventure" do
-      @adventure1 = Adventure.new("Adventure 1", "Net::HTTP", "1")
-      @adventure2 = Adventure.new("Adventure 2", "Logger", "2")
-      expect(Adventure.find(1)).to eq(@adventure1)
-      expect(Adventure.find(2)).to eq(@adventure2)
+  describe "Does rob's method work" do
+    it "looks up with global" do
+      expect(Adventure.find(1)[:title]).to eq("Title1")
+      expect(Adventure.find(2)[:title]).to eq("Title2")
     end
   end
 end
