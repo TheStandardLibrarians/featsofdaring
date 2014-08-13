@@ -8,8 +8,8 @@ class Objective
   end
   def self.find(id)
     [
-      Objective.new("1", "1", "Objective 1", "301"),
-      Objective.new("2", "1", "Objective 2", "404")
+      Objective.new('1', '1', 'Objective 1', '301'),
+      Objective.new('2', '1', 'Objective 2', '404')
     ].find { |value| value.id.to_i == id }
   end
 
