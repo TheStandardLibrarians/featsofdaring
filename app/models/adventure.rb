@@ -6,10 +6,7 @@ class Adventure
     @id = id
   end
   def self.find(id)
-    [
-      Adventure.new('Adventure 1', 'Net::HTTP', '1'),
-      Adventure.new('Adventure 2', 'Logger', '2')
-    ].find { |value| value.id.to_i == id }
+    ADVENTURES.find { |value| value.id.to_i == id }
   end
 
   def ==(other)
@@ -17,4 +14,12 @@ class Adventure
     @introduction == other.introduction &&
     @id == other.id
   end
+
+ADVENTURE1_TEXT =
+	<<-INTRODUCTION
+Oh no! Cuddy runs ahead of Mr. Chips and fell down a well. There are snakes in the well. Cuddy finds a tin can with a string leading to the top of the well. He needs your help to place the call (he thinks the phone works). Let’s try to call Cuddy’s agent, PrettyP.
+      INTRODUCTION
+  ADVENTURES = [
+    Adventure.new('Adventure 1', ADVENTURE1_TEXT,1)
+	       ]
 end

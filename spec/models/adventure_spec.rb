@@ -11,10 +11,8 @@ describe Adventure do
   end
   describe 'Can we find an Adventure' do
     it 'looks up an adventure' do
-      @adventure1 = Adventure.new('Adventure 1', 'Net::HTTP', '1')
-      @adventure2 = Adventure.new('Adventure 2', 'Logger', '2')
-      expect(Adventure.find(1)).to eq(@adventure1)
-      expect(Adventure.find(2)).to eq(@adventure2)
+      @adventure1 = Adventure::ADVENTURES[0]
+      expect(Adventure.find(@adventure1.id)).to eq(@adventure1)
     end
   end
 end
