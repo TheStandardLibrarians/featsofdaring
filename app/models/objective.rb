@@ -1,21 +1,25 @@
 class Objective
-  attr_accessor :id, :adventure_id, :title, :expected_output
-  def initialize(id, adventure_id, title, expected_output)
-    @id = id
-    @adventure_id = adventure_id
+  attr_accessor :title, :expected_output, :pair_id
+  def initialize(adventure_id, id, title, expected_output)
     @title = title
     @expected_output = expected_output
-  end
-  def self.find(id)
+    @pair_id = {
+                adventure_id: adventure_id,
+                objective_id: id
+               } 
+end
+  def self.find(adventure_id, objective_id)
     [
-      Objective.new('1', '1', 'Objective 1', '301'),
-      Objective.new('2', '1', 'Objective 2', '404')
-    ].find { |value| value.id.to_i == id }
+     Objective.new('1', '1', 'Objective 1', '301'),
+     Objective.new('1', '2', 'Objective 2', '404'),
+     Objective.new('2', '1', 'Objective 1', '200')
+    
+    ].find { |value| value.pair_id[:objective_id].to_i == objective_id && value.pair_id[:adventure_id].to_i == adventure_id }
   end
 
   def ==(other)
-    @id == other.id &&
-    @adventure_id == other.adventure_id &&
+    @pair_id == other.pair_id &&
+   # @adventure_id == other.adventure_id &&
     @title == other.title &&
     @expected_output == other.expected_output
   end
