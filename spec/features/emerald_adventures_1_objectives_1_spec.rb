@@ -3,6 +3,7 @@ require 'rails_helper'
 feature 'Emerald visits adventure 1 objective 1' do
   scenario 'emerald reads narrative' do
     visit '/adventures/1/objectives/1'
+    save_and_open_page
     expect(page).to have_content I18n.t('adventure.one.objective1.copy')
   end
   scenario 'fills in form with meow' do
@@ -21,6 +22,11 @@ feature 'Emerald visits adventure 1 objective 1' do
     visit '/adventures/1/objectives/1'
     fill_in 'ripl_input', with:  'Net::HTTP.get_response(URI(\'http://prettyp.herokuapp.com\')).code'
     click_button 'submit'
-    expect(page).to have_content 'Yay! You learned about 301!'
+    expect(page).to have_content '301'
+  end
+  scenario 'emerald sees her specific objective' do
+    visit '/adventures/1/objectives/1/'
+    expect(page).to have_content("Adventure 1")
+    expect(page).to have_content("Objective 1")
   end
 end

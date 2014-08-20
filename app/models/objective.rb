@@ -14,7 +14,7 @@ end
      Objective.new('1', '2', 'Objective 2', '404'),
      Objective.new('2', '1', 'Objective 1', '200')
     
-    ].find { |value| value.pair_id[:objective_id].to_i == objective_id && value.pair_id[:adventure_id].to_i == adventure_id }
+    ].find { |value| value.pair_id[:objective_id].to_i == objective_id.to_i && value.pair_id[:adventure_id].to_i == adventure_id.to_i }
   end
 
   def ==(other)
@@ -23,4 +23,7 @@ end
     @title == other.title &&
     @expected_output == other.expected_output
   end
+# maps ids for find method
+  GET_301 = 1
+
 end

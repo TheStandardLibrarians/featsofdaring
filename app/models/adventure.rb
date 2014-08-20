@@ -22,4 +22,7 @@ Oh no! Cuddy runs ahead of Mr. Chips and fell down a well. There are snakes in t
   ADVENTURES = [
     Adventure.new( '1', 'Adventure 1', ADVENTURE1_TEXT)
   ]
+
+# assigns names to ids
+  NETHTTP = 1
 end
