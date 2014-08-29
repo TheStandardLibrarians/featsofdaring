@@ -17,9 +17,19 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 .left {
-  background-color:pink;
+ // background-color:pink;
 }
 .right {
-  background-color:green;
+ // background-color:green;
 }
-
+h1 {
+  text-transform: uppercase;
+}
+p {
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 20px 0px 10px;
+}
+.btn-adventure {
+  font-size: 24px;
+}
