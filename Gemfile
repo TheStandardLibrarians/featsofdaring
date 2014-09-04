@@ -8,6 +8,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'ripl'
 gem 'bootstrap-sass'
+gem 'google-webfonts-rails'
 
 group :production do
   gem 'pg'

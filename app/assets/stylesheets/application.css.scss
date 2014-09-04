@@ -16,19 +16,26 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import url(http://fonts.googleapis.com/css?family=Cabin+Sketch:700);
+
 body {
 background-color: #ff6699;
 }
 .featsofdaring-left {
- background-color: #fff;
+  background-color: #fff;
+  height: 585px;
 }
-.right {
- // background-color:green;
+.repl-right {
+  background-color: #fff;
+  height: 385px;
 }
+
 h1 {
-  text-transform: uppercase;
+//  text-transform: uppercase;
+  font-family: "CabinSketch", Helvetica, sans-serif;
 }
 p {
+  font-family: Helvetica, sans-serif;
   font-size: 22px;
   line-height: 1.2;
   margin: 20px 0px 10px;
@@ -56,3 +63,4 @@ p {
 .featsofdaring-nav {
   background-color: #fff;
 }
+
