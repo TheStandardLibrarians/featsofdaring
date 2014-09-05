@@ -16,20 +16,50 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
-.left {
+// .left {
  // background-color:pink;
-}
-.right {
+// }
+// .right {
  // background-color:green;
-}
+// }
 h1 {
   text-transform: uppercase;
 }
 p {
-  font-size: 24px;
+  font-size: 14px;
   line-height: 1.2;
   margin: 20px 0px 10px;
 }
+
 .btn-adventure {
   font-size: 24px;
+}
+.replbox {
+  height: 385px;
+  background-color:green;
+}
+
+.instructions {
+ width:50%;
+
+ p {
+  font-size: 14px;
+  }
+}
+.smallpics {
+  width: 50%;
+  img {
+  width:100% 
+  }
+}
+
+.code-example {
+word-wrap: break-word;
+font-size: 100%;
+}
+
+.inputform {
+ width: 100%;
+ height: 335px;
+ font-size: 24px;
 }

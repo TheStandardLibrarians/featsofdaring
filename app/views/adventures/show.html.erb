@@ -10,20 +10,25 @@ Oh No! Cuddy ran ahead of Mr. Chips and fell down a well. It is very dark inside
 <p>On the right, in the terminal window try placing a call to PrettyP.</p>
 
 <p>Type in this code:</p>
-<code>$Net::HTTP.get_response(URI('http://prettyp.herokuapp.com'))</code>
+<code class="code-example">$Net::HTTP.get_response(URI('http://prettyp.herokuapp.com'))</code>
 <p>
 ( Psst: Don’t type in the $ sign. That just means type it in to the section on the right. )</p>
     </div>
-    <div class="col-xs-6 right">
+    <div class="col-xs-6 pull-right">
+      <div class="left replbox">
       <%= form_tag request.path, method: :put do %>
-        <%= text_field_tag :ripl_input %>
+        <%= text_field_tag :ripl_input,"", class: "inputform" %>
         <%= submit_tag "submit" %>
       <% end %>
-    </div>
-    <div>
+      </div>
+    <div class="pull-left instructions">
       <p>enter / return - Submit code</p>
       <p>next - Move to the next lesson</p>
       <p>back - Return to previous lesson</p>
+    </div> 
+    <div class="smallpics pull-left">
+      <%= image_tag("well-sm.jpg") %>
     </div>
-  </div>
+ </div>
+</div>
 </div>
