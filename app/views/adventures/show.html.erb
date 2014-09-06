@@ -1,10 +1,12 @@
-<div class="container-fluid">
+<div class="container">
   <div class="row">
-    <div class="col-xs-6 left">
+    <div class="col-xs-6 left outline">
     <%= render partial: "shared/adventure_title" %>
-    <p>The curious cat
-       Falling down down down the well
+    <p>The curious cat <br />
+       Falling down down down the well <br />
        Cuddy needs your help!
+    </p>
+<p>
 Oh No! Cuddy ran ahead of Mr. Chips and fell down a well. It is very dark inside the well. Cuddy finds a tin can with a string leading to the top of the well. He needs your help to place the call (he thinks the phone works). Let’s try to call Cuddy’s agent, PrettyP.
 </p>
 <p>On the right, in the terminal window try placing a call to PrettyP.</p>
@@ -14,7 +16,7 @@ Oh No! Cuddy ran ahead of Mr. Chips and fell down a well. It is very dark inside
 <p>
 ( Psst: Don’t type in the $ sign. That just means type it in to the section on the right. )</p>
     </div>
-    <div class="col-xs-6 pull-right">
+    <div class="col-xs-6 pull-right outline">
       <div class="left replbox">
       <%= form_tag request.path, method: :put do %>
         <%= text_field_tag :ripl_input,"", class: "inputform" %>
