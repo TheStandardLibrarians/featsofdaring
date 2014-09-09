@@ -2,14 +2,10 @@
   <div class="row">
     <div class="col-xs-6 left outline">
     <%= render partial: "shared/adventure_title" %>
+    <%= render partial: "shared/objective_title" %>
 
-<p>On the right, in the terminal window try placing a call to PrettyP.</p>
+    <%= t("adventure.one.objective1.copy")%>
 
-<p>Type in this code:</p>
-<code class="code-example">$Net::HTTP.get_response(URI('http://prettyp.herokuapp.com'))</code>
-<p>
-( Psst: Don’t type in the $ sign. That just means type it in to the section on the right. )</p>
-    </div>
     <div class="col-xs-6 pull-right outline">
       <div class="left replbox">
       <%= form_tag request.path, method: :put do %>
@@ -21,10 +17,11 @@
       <p>enter / return - Submit code</p>
       <p>next - Move to the next lesson</p>
       <p>back - Return to previous lesson</p>
-    </div> 
+    </div>
     <div class="smallpics pull-left">
       <%= image_tag("well-sm.jpg") %>
     </div>
  </div>
 </div>
 </div>
+
