@@ -18,7 +18,7 @@ module ApplicationHelper
   end
 
   def back_command
-    if params[:ripl_input].downcase.include? "back" && params[:id] != 1
+    if params[:ripl_input].downcase.include?("back") && params[:id] != 1
       params[:id] = params[:id].to_i - 1
       redirect_to_objective
     end
