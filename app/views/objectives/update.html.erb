@@ -4,8 +4,8 @@
     <%= render partial: "shared/adventure_title" %>
     <%= render partial: "shared/objective_title" %>
 
-    <%= t("adventure.one.objective1.copy")%>
-
+    <%= simple_format t("adventure.one.objective1.copy")%>
+    </div>
     <div class="col-xs-6 pull-right outline">
       <div class="left replbox">
       <%= form_tag request.path, method: :put do %>
@@ -19,7 +19,7 @@
       <p>back - Return to previous lesson</p>
     </div>
     <div class="smallpics pull-left">
-      <%= image_tag("well-sm.jpg") %>
+      <%= image_tag("301.jpg") %>
     </div>
  </div>
 </div>

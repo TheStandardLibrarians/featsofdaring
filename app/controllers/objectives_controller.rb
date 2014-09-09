@@ -6,6 +6,7 @@ class ObjectivesController < ApplicationController
     @adventure = Adventure.find(params[:adventure_id])
   end
   def update
-    render plain: evaluate(params[:ripl_input])
-  end
+#    render plain: evaluate(params[:ripl_input])
+    @adventure = Adventure.find(params[:adventure_id]) 
+ end
 end
