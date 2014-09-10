@@ -18,12 +18,6 @@
 @import 'bootstrap';
 @import url(http://fonts.googleapis.com/css?family=Cabin+Sketch:700);
 
-// .left {
- // background-color:pink;
-// }
-// .right {
- // background-color:green;
-// }
 h1 {
   font-size: 50px;
   color: #000;
@@ -54,11 +48,10 @@ p {
 }
 .replbox {
   height: 385px;
-  //background-color:green;
 }
 
 .instructions {
- width:50%;
+  width:50%;
 
  p {
   font-size: 14px;
@@ -72,15 +65,17 @@ p {
 }
 
 .code-example {
-word-wrap: break-word;
-font-size: 100%;
+  word-wrap: break-word;
+  font-size: 100%;
 }
 
 .inputform {
- width: 100%;
- height: 335px;
- font-size: 24px;
+  width: 100%;
+  height: 335px;
+  font-size: 14px;
   background-color: #ccc;
+  font-weight: bold;
+  padding: 10px;
 }
 
 .large-illustration {
@@ -90,4 +85,7 @@ font-size: 100%;
 .top-padding {
   padding-top: 20px;
 }
-
+.psst {
+  font-size: 14px;
+  color: #666;
+} 
