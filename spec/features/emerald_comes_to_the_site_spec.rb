@@ -1,18 +1,14 @@
 require 'rails_helper'
 
 feature 'Emerald comes to the site' do
-  scenario 'Emerald views the home page' do
-    visit '/'
-    expect(page).to have_content 'Adventure 1'
-  end
   scenario 'Emerald goes to adventure 1' do
     visit '/'
-    click_on 'Adventure 1'
-    expect(page).to have_content Adventure.find(1).title 
-    expect(page).to have_content Adventure.find(1).introduction
+    click_on 'Start Adventure 1'
+    expect(page).to have_content 'The curious cat' 
   end
-  scenario 'Emerald sees the repl' do
+  scenario 'Emerald sees the image on the right' do
     visit '/'
-    expect(page).to have_css('input')
+    page.find('.large-illustration')['src'].should have_content 'assets/adventure-one-intro.jpg'    
+#expect(page).to have_css('img', text: 'adventure-one-intro.jpg')
   end
 end
