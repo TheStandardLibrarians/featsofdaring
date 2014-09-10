@@ -7,15 +7,15 @@
 <p>On the right, in the terminal window try placing a call to PrettyP.</p>
 
 <p>Type in this code:</p>
-<code class="code-example">$Net::HTTP.get_response(URI('http://prettyp.herokuapp.com'))</code>
-<p>
-( Psst: Don’t type in the $ sign. That just means type it in to the section on the right. )</p>
+<div class='well'><code class="code-example">Net::HTTP.get_response(URI('http://prettyp.herokuapp.com'))</code>
+</div>
+<p class='psst'>( Psst: Don’t just copy and paste it; type it in. It's the best way to really learn. )</p>
     </div>
     <div class="col-xs-6 pull-right outline">
       <div class="left replbox">
       <%= form_tag request.path, method: :put do %>
         <%= text_field_tag :ripl_input,"", class: "inputform" %>
-        <%= submit_tag "submit" %>
+        <%= submit_tag "submit", class: "btn btn-success btn-adventure" %>
       <% end %>
       </div>
     <div class="pull-left instructions">
