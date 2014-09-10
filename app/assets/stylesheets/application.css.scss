@@ -16,6 +16,8 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import url(http://fonts.googleapis.com/css?family=Cabin+Sketch:700);
+
 // .left {
  // background-color:pink;
 // }
@@ -23,7 +25,14 @@
  // background-color:green;
 // }
 h1 {
+  font-size: 60px;
+  color: #000;
   text-transform: uppercase;
+  font-family: 'Cabin Sketch', cursive;
+  font-weight: bold;
+}
+small {
+  color: #000;
 }
 .outline {
   border-radius: 9px 9px 9px 9px;
