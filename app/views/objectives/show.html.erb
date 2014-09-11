@@ -1,31 +1,32 @@
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col-xs-6 left outline">
-    <%= render partial: "shared/adventure_title" %>
-    <%= render partial: "shared/objective_title" %>
+      <%= render partial: "shared/adventure_title" %>
+      <%= render partial: "shared/objective_title" %>
 
-<p>On the right, in the terminal window try placing a call to PrettyP.</p>
+      <p>On the right, in the terminal window try placing a call to PrettyP.</p>
 
-<p>Type in this code:</p>
-<div class='well'><code class="code-example">Net::HTTP.get_response(URI('http://prettyp.herokuapp.com'))</code>
-</div>
-<p class='psst'>( Psst: Don’t just copy and paste it; type it in. It's the best way to really learn. )</p>
+      <p>Type in this code:</p>
+
+      <div class='well'><code class="code-example">Net::HTTP.get_response(URI('http://prettyp.herokuapp.com'))</code></div>
+
+      <p class='psst'>( Psst: Don’t just copy and paste it; type it in. It's the best way to really learn. )</p>
     </div>
     <div class="col-xs-6 pull-right outline">
       <div class="left replbox">
-      <%= form_tag request.path, method: :put do %>
-        <%= text_field_tag :ripl_input,"", class: "inputform" %>
-        <%= submit_tag "submit", class: "btn btn-success btn-adventure" %>
-      <% end %>
+        <%= form_tag request.path, method: :put do %>
+          <%= text_field_tag :ripl_input,"", class: "inputform" %>
+          <%= submit_tag "submit", class: "btn btn-success btn-adventure" %>
+        <% end %>
       </div>
-    <div class="pull-left instructions">
-      <p>enter / return - Submit code</p>
-      <p>next - Move to the next lesson</p>
-      <p>back - Return to previous lesson</p>
-    </div> 
-    <div class="smallpics pull-left">
-      <%= image_tag("well-sm.jpg") %>
+      <div class="pull-left instructions">
+        <p>enter / return - Submit code</p>
+        <p>next - Move to the next lesson</p>
+        <p>back - Return to previous lesson</p>
+      </div> 
+      <div class="smallpics pull-left">
+        <%= image_tag("well-sm.jpg") %>
+      </div>
     </div>
- </div>
-</div>
+  </div>
 </div>
