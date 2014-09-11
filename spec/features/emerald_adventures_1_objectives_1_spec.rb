@@ -4,8 +4,14 @@ feature 'Emerald visits adventure 1 objective 1' do
   scenario 'emerald reads narrative' do
     visit '/adventures/1/objectives/1'
     save_and_open_page
+<<<<<<< HEAD
     expect(page).to have_content 'On the right, in the terminal window try placing a call to PrettyP.'
   end
+=======
+#    expect(page).to have_content I18n.t('adventure.one.objective1.copy')
+     expect(page).to have_content 'On the right, in the terminal window try placing a call to PrettyP' 
+ end
+>>>>>>> css and navbar
   scenario 'fills in form with meow' do
 
     subject { page }
@@ -27,6 +33,5 @@ feature 'Emerald visits adventure 1 objective 1' do
   scenario 'emerald sees her specific objective' do
     visit '/adventures/1/objectives/1/'
     expect(page).to have_content("Adventure 1")
-    expect(page).to have_content("Objective 1")
   end
 end
