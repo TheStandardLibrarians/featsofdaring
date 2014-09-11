@@ -32,5 +32,4 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # `vagrant box outdated`. This is not recommended.
   # config.vm.box_check_update = false
 
-"Vagrantfile" 137L, 5320C                                                                                          1,1           Top
-
+end
