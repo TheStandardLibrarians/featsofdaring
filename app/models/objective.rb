@@ -14,7 +14,7 @@ end
      Objective.new('1', '2', 'Objective 2', '404'),
      Objective.new('2', '1', 'Objective 1', '200')
     
-    ].find { |value| value.pair_id[:objective_id].to_i == objective_id.to_i && value.pair_id[:adventure_id].to_i == adventure_id.to_i }
+    ].find { |objective| objective.pair_id[:objective_id].to_i == objective_id.to_i && objective.pair_id[:adventure_id].to_i == adventure_id.to_i }
   end
 
   def ==(other)
