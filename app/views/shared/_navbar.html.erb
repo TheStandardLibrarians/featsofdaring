@@ -6,20 +6,46 @@
    </div> -->
    <div>
       <ul class="nav navbar-nav">
-	 <li class="active"><a href="#">Chapters</a></li>
-	 <li class="active"><a href="#">Contact</a></li>
-         <li><a href="#">About The Standard Librarians</a></li>
+	 <li class="active"><%= link_to "Home", root_path %></li>
+	 <li class="active"><%= link_to "Adventure 1", adventure_path(1) %></li>
+         <li><%#= link_to "About The Standard Librarians", '#' %></li>
+
+         <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Chapters<b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                 <li><%= link_to "HTTP Protocol",          chapters_http_path %></li>
+                 <li><%= link_to "Encoding - Compression", chapters_encoding_path %></li>
+                 <li><%= link_to "Math",                   chapters_math_path %></li>
+                 <li><%= link_to "Time - Date",            chapters_time_path %></li>
+                 <li><%= link_to "Database",               chapters_database_path %></li>
+                 <li><%= link_to "Exceptions-Debugging-Testing", chapters_exceptions_path %></li>
+                 <li><%= link_to "Read & Write - IO",      chapters_read_path %></li>
+                 <li><%= link_to "DSL",                    chapters_dsl_path %></li>
+                 <li><%= link_to "GUI",                    chapters_gui_path %></li>
+                 <li><%= link_to "Commandline Tools",      chapters_commandline_path %></li>
+                 <li><%= link_to "Patterns",               chapters_patterns_path %></li>
+                 <li><%= link_to "Methods",                chapters_methods_path %></li>
+                 <li><%= link_to "Threads & Server Processes", chapters_threads_path %></li>
+                 <li><%= link_to "Core Ruby Tools",        chapters_core_path %></li>
+
+              </ul>
+          </li>
+
          <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-               
-               <b class="caret"></b>
+              The Standard Librarians <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
-               <li><a href="#">Mobbing</a></li>
-               <li><a href="#">Agile</a></li>
-               <li><a href="#">Tetsing</a></li>
-               <li><a href="#">RGSoC</a></li>
-               <li><a href="#">User Stories</a></li>
+               <li><%= link_to "About",        stdlib_about_path %></li>
+               <li><%= link_to "The Team",     stdlib_team_path %></li>
+               <li><%= link_to "Mobbing",      stdlib_mobbing_path %></li>
+               <li><%= link_to "Agile",        stdlib_agile_path %></li>
+               <li><%= link_to "Testing",      stdlib_testing_path %></li>
+               <li><%= link_to "RGSoC",        stdlib_rgsoc_path %></li>
+               <li><%= link_to "User Stories", stdlib_userstories_path %></li>
+               <li><%= link_to "Future Goals", stdlib_goals_path %></li>
             </ul>
          </li>
       </ul>
