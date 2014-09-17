@@ -10,7 +10,7 @@
     </div>
     <div class="col-xs-6 pull-right outline">
       <div class="left replbox">
-      <%= form_tag request.path, method: :put do %>
+      <%= form_tag repl_adventure_objective_path do %>
         <%= text_field_tag :ripl_input,"", class: "inputform" %>
         <%= submit_tag "submit", class: "btn btn-success btn-adventure" %>
       <% end %>

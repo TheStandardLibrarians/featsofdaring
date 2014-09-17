@@ -1,6 +1,6 @@
 class AdventuresController < ApplicationController
   include ApplicationHelper
-  def show
+  def story
     @adventure = Adventure.find(params[:id])
   end
   def update

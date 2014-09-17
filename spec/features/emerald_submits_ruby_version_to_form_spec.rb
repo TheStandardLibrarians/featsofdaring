@@ -5,9 +5,11 @@ feature 'Emerald visits the app' do
 
     subject { page }
 
-    visit '/adventures/1/objectives/1'
+    visit '/adventures/1/objectives/1/learn'
     fill_in 'ripl_input', with:  'RUBY_VERSION'
     click_button 'submit'
-    expect(page).to have_content '2.1.2'
+    within '[name=ripl_input]' do
+      expect(page).to have_content '2.1.2'
+    end
   end
 end

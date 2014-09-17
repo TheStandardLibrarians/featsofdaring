@@ -5,34 +5,47 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'home#index'
 
-  get "stdlib/chapters"  
-  get "stdlib/about"
-  get "stdlib/about"
-  get "stdlib/team"
-  get "stdlib/mobbing"
-  get "stdlib/agile"
-  get "stdlib/testing"
-  get "stdlib/rgsoc"
-  get "stdlib/userstories"
-  get "stdlib/goals"
+  namespace :stdlib do 
+    get :chapters  
+    get :about
+    get :team
+    get :mobbing
+    get :agile
+    get :testing
+    get :rgsoc
+    get :userstories
+    get :goals
+  end
+ 
+ namespace :chapters do
+   get :http
+   get :math
+   get :time
+   get :database
+   get :encoding
+   get :exceptions
+   get :read
+   get :dsl
+   get :gui
+   get :commandline
+   get :patterns
+   get :methods
+   get :threads
+   get :core
+ end
 
-  get "chapters/http"
-  get "chapters/math"
-  get "chapters/time"
-  get "chapters/database"
-  get "chapters/encoding"
-  get "chapters/exceptions"
-  get "chapters/read"
-  get "chapters/dsl"
-  get "chapters/gui"
-  get "chapters/commandline"
-  get "chapters/patterns"
-  get "chapters/methods"
-  get "chapters/threads"
-  get "chapters/core"
 
-  resources :adventures do
-    resources :objectives
+  resources :adventures, only: []  do
+    member do
+      get :story
+    end
+    resources :objectives, only: [] do
+      member do
+        get :learn
+        get :review
+        post :repl
+      end
+    end  
   end
   #    resources
   # match '/prettyp', to: 'status#prettyp', via: 'get'
