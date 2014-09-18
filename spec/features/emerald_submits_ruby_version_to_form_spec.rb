@@ -8,8 +8,9 @@ feature 'Emerald visits the app' do
     visit '/adventures/1/objectives/1/learn'
     fill_in 'ripl_input', with:  'RUBY_VERSION'
     click_button 'submit'
-    within '[name=ripl_input]' do
-      expect(page).to have_content '2.1.2'
-    end
+    expect(find_field('ripl_input').value).to eq '2.1.2'
+#    within '[name=ripl_input]' do
+#      expect(page).to has_value '2.1.2'
+#    end
   end
 end

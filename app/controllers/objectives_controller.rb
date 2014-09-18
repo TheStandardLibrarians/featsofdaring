@@ -20,8 +20,10 @@ class ObjectivesController < ApplicationController
    def repl
      if meow? 
        redirect_to learn_adventure_objective_path(1,2)
-     else 
-       redirect_to review_adventure_objective_path(1, 1)
+     else
+       learn 
+       @ripl_output=evaluate(params[:ripl_input]) 
+       render :learn
      end
    end
 private
