@@ -11,10 +11,11 @@ feature 'Emerald visits adventure 1 objective 1' do
     subject { page }
 
     visit '/adventures/1/objectives/1/learn'
-    fill_in 'ripl_input', with:  'Net::HTTP.get_response(URI(\'http://prettyp.herokuapp.com\')).code'
+    fill_in 'ripl_input', with:  'Net::HTTP.get_response(URI(\'http://prettyp.herokuapp.com\'))'
     click_button 'submit'
-    expect(current_path).to eq review_adventure_objective_path(1, 1)
-    expect(page).to have_content '301'
+      expect(current_path).to eq review_adventure_objective_path(1, 1)
+      expect(page).to have_content 'You just made a call to the web.'
+      expect(find_field('ripl_input').value).to include 'Net::HTTPMovedPermanently'
   end
 
   scenario 'emerald sees her specific objective' do

@@ -9,8 +9,5 @@ feature 'Emerald visits the app' do
     fill_in 'ripl_input', with:  'RUBY_VERSION'
     click_button 'submit'
     expect(find_field('ripl_input').value).to eq '2.1.2'
-#    within '[name=ripl_input]' do
-#      expect(page).to has_value '2.1.2'
-#    end
   end
 end
