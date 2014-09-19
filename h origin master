@@ -1,0 +1,811 @@
+[33mcommit e6d379fe03128667e48cad49a7c8a3a0333869c2[m
+Author: Jen Diamond, Mike McCormick & Omowale Oniyide <thestandardlibrarians+jen+mike+omowale@gmail.com>
+Date:   Fri Sep 19 05:25:36 2014 +0000
+
+    Checks for correct repl response
+
+[33mcommit 1097ec6354bac05bd4c70ef2b0120e334d6cc530[m
+Author: Jen Diamond, Mike McCormick & Omowale Oniyide <thestandardlibrarians+jen+mike+omowale@gmail.com>
+Date:   Thu Sep 18 04:33:53 2014 +0000
+
+    Adds ripl_input and ripl_output
+
+[33mcommit 0c6d60cfc2a093360b26d64c993fcdf73d756086[m
+Author: Jen Diamond, Mike McCormick & Omowale Oniyide <thestandardlibrarians+jen+mike+omowale@gmail.com>
+Date:   Wed Sep 17 06:08:17 2014 +0000
+
+    Fixes all broken specs
+
+[33mcommit f6e350b6bf52a939861e32a1fe9835b6c466963f[m
+Merge: 3fdf58d 13ebdf7
+Author: Jen Diamond, Josh Loper & Omowale Oniyide <thestandardlibrarians+jen+josh+omowale@gmail.com>
+Date:   Mon Sep 15 01:14:05 2014 +0000
+
+    Merge branch 'master' of github.com:thestandardlibrarians/featsofdaring
+
+[33mcommit 13ebdf78d53403fcca82c7bbbebbc9ab07256db0[m
+Merge: cc060f4 36ebd2e
+Author: JenDiamond <thejendiamond@gmail.com>
+Date:   Sun Sep 14 18:13:42 2014 -0700
+
+    Merge pull request #15 from TheStandardLibrarians/chapters
+    
+    Adds Nav Bar, Chapters, all Libraries, About Section
+
+[33mcommit 36ebd2e9f809bcfef569673bca8976d813ea2e69[m
+Author: Jen Diamond, Josh Loper & Omowale Oniyide <thestandardlibrarians+jen+josh+omowale@gmail.com>
+Date:   Mon Sep 15 01:12:10 2014 +0000
+
+    deletes sentence on front page
+
+[33mcommit 54c54dbca076679d0532918c5e3ae978b4f318e6[m
+Author: Jen Diamond, Josh Loper & Omowale Oniyide <thestandardlibrarians+jen+josh+omowale@gmail.com>
+Date:   Sun Sep 14 19:31:48 2014 +0000
+
+    Adds libraries to chapters
+
+[33mcommit 512a79e98ebae506f972e0c3431b174254cf0b22[m
+Author: Jen Diamond, Josh Loper & Omowale Oniyide <thestandardlibrarians+jen+josh+omowale@gmail.com>
+Date:   Sun Sep 14 09:57:55 2014 +0000
+
+    Adds Chapters
+
+[33mcommit df183ab7513d6a62e741c08b36c694da4aa70448[m
+Author: Jen Diamond, Josh Loper & Omowale Oniyide <thestandardlibrarians+jen+josh+omowale@gmail.com>
+Date:   Sat Sep 13 10:08:06 2014 +0000
+
+    Fleshing out the nabar and other pages
+
+[33mcommit cc060f434eeef88f954bf43e157eb1f21e61c076[m
+Author: JenDiamond <thejendiamond@gmail.com>
+Date:   Thu Sep 11 15:50:21 2014 -0700
+
+    Update Vagrantfile
+
+[33mcommit 3fdf58d2a70757c074f78beac68c0ad5bdfc0653[m
+Author: Jen Diamond, Josh Loper & Omowale Oniyide <thejendiamond@gmail>
+Date:   Thu Sep 11 22:33:20 2014 +0000
+
+    Updates Vagrantfile and git pairs
+
+[33mcommit 42a815fcef30172c6c844d52322672bbed25be60[m
+Author: Jen Diamond, Josh Loper & Omowale Oniyide <thestandardlibrarians+jen+josh+omowale@gmail.com>
+Date:   Thu Sep 11 22:18:51 2014 +0000
+
+    Changes Vagrantfile
+
+[33mcommit ec229afaabef41825fc73614c94ab15e81e22245[m
+Merge: b7156a4 b2e8995
+Author: JenDiamond <thejendiamond@gmail.com>
+Date:   Wed Sep 10 17:12:19 2014 -0700
+
+    Merge pull request #14 from TheStandardLibrarians/chapters
+    
+    Fixes spacing issues , adds bg color
+
+[33mcommit b2e8995a139efa0524bd5c10887d6cf27a6e8f47[m
+Author: Jen Diamond, Josh Loper & Omowale Oniyide <thejendiamond@gmail>
+Date:   Thu Sep 11 00:06:55 2014 +0000
+
+    Fies spacingissues , adds bg color
+
+[33mcommit b7156a457c5aac38110fd8e39b66b7bc419631f8[m
+Author: Jen Diamond, Josh Loper & Omowale Oniyide <thejendiamond@gmail>
+Date:   Wed Sep 10 23:17:53 2014 +0000
+
+    Adds styling to submit btn on obj-update page
+
+[33mcommit b8022c3c78937e400d33ec143bd0e19ea535b653[m
+Merge: 8058858 7097e61
+Author: JenDiamond <thejendiamond@gmail.com>
+Date:   Wed Sep 10 16:10:50 2014 -0700
+
+    Merge pull request #13 from TheStandardLibrarians/objective2
+    
+    Adds styling to repl
+
+[33mcommit 7097e619e236746d422c68bc4277c902521b7a43[m
+Author: Jen Diamond, Josh Loper & Omowale Oniyide <thejendiamond@gmail>
+Date:   Wed Sep 10 23:03:07 2014 +0000
+
+    Adds styling to repl
+
+[33mcommit 8058858ba870117d3bd8edf62279c9c717cd96c2[m
+Merge: 3ae8ad6 d7da105
+Author: Jen Diamond, Josh Loper & Omowale Oniyide <thejendiamond@gmail>
+Date:   Wed Sep 10 22:20:17 2014 +0000
+
+    Merge branch 'master' of github.com:TheStandardLibrarians/featsofdaring
+
+[33mcommit d7da105a15337f5a331ae60aa0b8052e0ac61ad0[m
+Merge: 14b3514 94801df
+Author: JenDiamond <thejendiamond@gmail.com>
+Date:   Wed Sep 10 15:18:41 2014 -0700
+
+    Merge pull request #12 from TheStandardLibrarians/heading
+    
+    Adds the same styling to other pic and smaller h1 font
+
+[33mcommit 94801df224bc9414c48bd2e50f4167ed0c01afd0[m
+Author: Jen Diamond, Josh Loper & Omowale Oniyide <thestandardlibrarians+jen+josh+omowale@gmail.com>
+Date:   Wed Sep 10 22:14:46 2014 +0000
+
+    Adds the same styling to other pic and smaller h1 font
+
+[33mcommit 3ae8ad64faad0281755797db31b38a8cdaab31ee[m
+Author: Jen Diamond, Josh Loper & Omowale Oniyide <thestandardlibrarians+jen+josh+omowale@gmail.com>
+Date:   Wed Sep 10 21:58:16 2014 +0000
+
+    deletes a test that is no longer applicable
+
+[33mcommit 14b351427d8b37808ca17788aceabeaf4815732b[m
+Author: Jen Diamond, Josh Loper & Omowale Oniyide <thestandardlibrarians+jen+josh+omowale@gmail.com>
+Date:   Wed Sep 10 04:38:15 2014 +0000
+
+    Fixes Tests
+
+[33mcommit 4d611e1b610af2d3ecf170dd1f5decbcfd55c847[m
+Author: Jen Diamond, Josh Loper & Omowale Oniyide <thestandardlibrarians+jen+josh+omowale@gmail.com>
+Date:   Wed Sep 10 03:05:03 2014 +0000
+
+    Adds Cabin Sketch font
+
+[33mcommit f922795e97a53a55b17a93284982ca09590c307b[m
+Author: Jen Diamond, Josh Loper & Omowale Oniyide <thestandardlibrarians+jen+josh+omowale@gmail.com>
+Date:   Wed Sep 10 02:17:26 2014 +0000
+
+    Adds styling
+
+[33mcommit edaf867a6e5ed6a0263d7004e6b36ad67be51309[m
+Author: Jen Diamond, Josh Loper & Omowale Oniyide <thestandardlibrarians+jen+josh+omowale@gmail.com>
+Date:   Tue Sep 9 04:03:42 2014 +0000
+
+    Adds Objective update page
+    
+    Adds review text and 301 image
+    
+    [#76498174]
+
+[33mcommit 722126ac54094188eab57b897c78f5f3f9a83c4a[m
+Author: Jen Diamond, Josh Loper & Omowale Oniyide <thestandardlibrarians+jen+josh+omowale@gmail.com>
+Date:   Tue Sep 9 03:33:12 2014 +0000
+
+    Adds parens to back string in application_helper
+    
+    [#78166120]
+
+[33mcommit 9884a2c649e431fb7ee30e60e837c18e82686e1a[m
+Author: Jen Diamond, Josh Loper & Omowale Oniyide <thestandardlibrarians+jen+josh+omowale@gmail.com>
+Date:   Tue Sep 9 03:12:01 2014 +0000
+
+    Splits Adventure 1 Objective 1 into 2 pages
+    
+    Splits Adventure 1 Objective 1 into an intro 2 separate pages: intro     page and a learn/submit pagey
+    
+    [#78166120]
+
+[33mcommit c8d2a3337f0e175b31b3b01789f04317acfa5ad4[m
+Merge: 33f15b9 59b4ef4
+Author: JenDiamond <thejendiamond@gmail.com>
+Date:   Fri Sep 5 18:51:27 2014 -0700
+
+    Merge pull request #11 from TheStandardLibrarians/textsizes
+    
+    adds styling
+
+[33mcommit 59b4ef4228aacc249dd669f09f50709340a36aa5[m
+Author: Jen Diamond, Josh Loper & Omowale Oniyide <thestandardlibrarians+jen+josh+omowale@gmail.com>
+Date:   Fri Sep 5 18:49:25 2014 -0700
+
+    adds styling
+
+[33mcommit 33f15b96ee55d0d54c3952f4d8b1a6fc071ef936[m
+Author: Jen Diamond, John Ryan & Omowale Oniyide <thestandardlibrarians+jen+john+omowale@gmail.com>
+Date:   Fri Sep 5 03:39:32 2014 +0000
+
+    Styling for Adventure show page
+    
+    Adds small image.
+    
+    Places help section at bottom of page.
+    
+    Floats the help section and the image side by side.
+    
+    Resizes repl box.
+    
+    [#75005688]
+
+[33mcommit 5b9b5dcdbbcc0648bb8b03d35f901d2e444ef235[m
+Author: Jen Diamond, John Ryan & Omowale Oniyide <thestandardlibrarians+jen+john+omowale@gmail.com>
+Date:   Thu Sep 4 04:29:57 2014 +0000
+
+    Puts REPL on right side & adds help to bottom
+    
+    [#76498174]
+
+[33mcommit fa980836027d0a1511b5a15771e3e093a79474c5[m
+Author: Jen Diamond, Josh Loper, Omowale Oniyide & Pat Maddox <thestandardlibrarians+jen+josh+omowale+pat@gmail.com>
+Date:   Thu Sep 4 02:19:45 2014 +0000
+
+    Replaces placeholder with intro image.
+    
+    Adds container-fluid to home-index.
+    [#76497278]
+
+[33mcommit 5c3c4f3108615cf2de83068bad8b6f57cc1c0084[m
+Author: Jen Diamond, Josh Loper, Omowale Oniyide & Pat Maddox <thestandardlibrarians+jen+josh+omowale+pat@gmail.com>
+Date:   Wed Sep 3 03:26:54 2014 +0000
+
+    Changes settings in the config/environments/production
+    
+    config.cache_classes = true
+    config.serve_static_assets = true
+    config.assets.compile = true
+    config.assets.digest = true
+
+[33mcommit 7013c9c40175fb2a98c658443881a20610be12e1[m
+Author: Jen Diamond, Mike McCormick & Omowale Oniyide <thestandardlibrarians+jen+mike+omowale@gmail.com>
+Date:   Fri Aug 29 04:34:50 2014 +0000
+
+    Adds CSS styling to homepage.
+    
+    [#76497278]
+
+[33mcommit e77bb0ae47a574ea7a9f3d93b916d6472b884419[m
+Author: Jen Diamond, Mike McCormick & Omowale Oniyide <thestandardlibrarians+jen+mike+omowale@gmail.com>
+Date:   Fri Aug 29 02:02:05 2014 +0000
+
+    test
+
+[33mcommit 15852a3ea3c171394ca9104bad4aac85d388d56b[m
+Author: Jen Diamond, Josh Loper, Omowale Oniyide & Pat Maddox <thestandardlibrarians+jen+josh+omowale+pat@gmail.com>
+Date:   Thu Aug 28 04:33:58 2014 +0000
+
+    added styling
+
+[33mcommit 543a6361a7b1546740db1823df53d3fbd2e6132e[m
+Author: Jen Diamond, Josh Loper, Omowale Oniyide & Pat Maddox <thestandardlibrarians+jen+josh+omowale+pat@gmail.com>
+Date:   Wed Aug 27 04:23:27 2014 +0000
+
+    re-defines the meow and back methods
+
+[33mcommit aa04b597c6a04e88a10909f5aceac9b82a84a217[m
+Author: Jen Diamond, Omowale Oniyide & Ryan Moran <thestandardlibrarians+jen+omowale+ryan@gmail.com>
+Date:   Tue Aug 26 04:18:19 2014 +0000
+
+    Displays adventure title on objective page.
+    
+    [#76497278]
+
+[33mcommit 510ec31938951f990fe85d4f9ade5056e0fca168[m
+Author: Jen Diamond, Josh Loper, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jen+josh+omowale+robert+stephanie@gmail.com>
+Date:   Wed Aug 20 04:26:31 2014 +0000
+
+    Adds a method to display users current objective
+    
+    Adds a method displaying a users path when they visit /adventures/:id
+    and displays path when they visit /adventures/:id/objectives/:id
+
+[33mcommit 6e550b708af90c7bcde2bd57d80d83e4de9d8151[m
+Author: Jen Diamond, John Ryan, Josh Loper, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jen+john+josh+omowale+robert+stephanie@gmail.com>
+Date:   Tue Aug 19 04:30:32 2014 +0000
+
+    Adds _header to display what adventure and objective that Emerald is on
+    
+    [#76497354]
+
+[33mcommit aa0e204a03cd363ff0d65ca1b3d3931866e11f1e[m
+Merge: 14db62d bc6375a
+Author: JenDiamond <thejendiamond@gmail.com>
+Date:   Mon Aug 18 17:40:21 2014 -0700
+
+    Merge pull request #8 from TheStandardLibrarians/styling
+    
+    Styling
+
+[33mcommit bc6375afbe1c9340a07a93b89fd935d661ffab24[m
+Author: Jen Diamond, John Ryan, Josh Loper, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jen+john+josh+omowale+robert+stephanie@gmail.com>
+Date:   Thu Aug 14 04:31:35 2014 +0000
+
+    gets rid of josh files
+
+[33mcommit 11c1ed867ec14f4ce983cea2ce60f9b8194cb85b[m
+Author: Jen Diamond, John Ryan, Josh Loper, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jen+john+josh+omowale+robert+stephanie@gmail.com>
+Date:   Thu Aug 14 04:22:02 2014 +0000
+
+    Adds test to check for find method on Narrative, makes narrative have unique pair
+    
+    Refactors to give narrative a unique id 'pair_id', allows lookup by adventure_id, objective_id, and type
+    
+    [#76497278]
+     On branch styling
+     Changes to be committed:
+    	modified:   app/models/narrative.rb
+    	new file:   mob_order.rb
+    	modified:   spec/models/narrative_spec.rb
+
+[33mcommit 7215edcdb4e2aa7e556c8288bfd5dee937ea81b5[m
+Author: Robert Wilkinson <wilkinson.robert.a@gmail.com>
+Date:   Wed Aug 13 18:39:09 2014 +0000
+
+    Cleans up code
+    
+    Cleans up code
+
+[33mcommit 89fb4da508fdc2ff42f9b260600004554c76a50d[m
+Author: Jen Diamond, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jen+omowale+robert+stephanie@gmail.com>
+Date:   Wed Aug 13 04:10:26 2014 +0000
+
+    Adds constants and find methods for narrative, adventure, and objective data.
+    
+    Creates find methods to search through constant adventure, objective, and narrative data
+    
+    [#76334086]
+
+[33mcommit 5753d89b3945d2d559da1a82a8b05e9be9d1b066[m
+Merge: 087519d 03a4115
+Author: JenDiamond <thejendiamond@gmail.com>
+Date:   Tue Aug 12 17:55:37 2014 -0700
+
+    Merge pull request #7 from TheStandardLibrarians/styling_rw
+    
+    Cleaned up code using Ruby Style Guide
+
+[33mcommit 03a4115f3d7368c5f79ee3673abb35f71af26402[m
+Author: Jen Diamond, Josh Loper, Omowale Oniyide, Pat Maddox, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jen+josh+omowale+pat+robert+stephanie@gmail.com>
+Date:   Tue Aug 12 18:59:28 2014 +0000
+
+    Fixes commit, accidentally had some local changes.
+    
+    REmoves sandbox local changes
+
+[33mcommit cbf7ec286e3a2f6140bc96dcdc37e41731397634[m
+Author: Jen Diamond, Josh Loper, Omowale Oniyide, Pat Maddox, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jen+josh+omowale+pat+robert+stephanie@gmail.com>
+Date:   Tue Aug 12 18:45:44 2014 +0000
+
+    Cleans up code, removes doublequotes, extra space
+    
+    Removes a lot of extra whitespaces, shortens lines of extra long code
+    where able to, removes extraneous double quotes
+
+[33mcommit cbd7998ee757e720f41fae36698de3112658404c[m
+Author: Jen Diamond, Josh Loper, Omowale Oniyide, Pat Maddox, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jen+josh+omowale+pat+robert+stephanie@gmail.com>
+Date:   Tue Aug 12 17:06:15 2014 +0000
+
+    Trying out global variable
+
+[33mcommit 087519d8ba1f35842054ebf5436f7db9cc09ee86[m
+Author: Jalil Mohammed, Jen Diamond, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jalil+jen+omowale+robert+stephanie@gmail.com>
+Date:   Mon Aug 11 21:40:36 2014 -0700
+
+    adds model for adventures
+
+[33mcommit c680aaebf1c9cde11a2a4cf327b159b4bd358224[m
+Author: Jalil Mohammed, Jen Diamond, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jalil+jen+omowale+robert+stephanie@gmail.com>
+Date:   Fri Aug 8 15:05:15 2014 -0700
+
+    Adds bootstrap and columns to home view
+
+[33mcommit 0df93a097fbe8e6746398142fa5dc72f5cd8390d[m
+Merge: 3af6baa f8b214f
+Author: Jalil Mohammed, Jen Diamond, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jalil+jen+omowale+robert+stephanie@gmail.com>
+Date:   Thu Aug 7 18:21:29 2014 -0700
+
+    "merge branch
+    
+    Merge branch 'objective1' of https://github.com/TheStandardLibrarians/featsofdaring into objective1
+
+[33mcommit 3af6baafc9eba8bb94fccd060ba19b70622eace8[m
+Merge: ad54398 14db62d
+Author: Jalil Mohammed, Jen Diamond, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jalil+jen+omowale+robert+stephanie@gmail.com>
+Date:   Thu Aug 7 18:21:02 2014 -0700
+
+    Merge branch 'master' of https://github.com/TheStandardLibrarians/featsofdaring into objective1
+
+[33mcommit 14db62d9d2b2e1dbd569e25a47960d155223abe6[m
+Author: JenDiamond <thejendiamond@gmail.com>
+Date:   Thu Aug 7 01:18:49 2014 -0700
+
+    Create the-manual-of-mob
+
+[33mcommit f8b214f28d2cf73cd25f383190528129a08803e5[m
+Author: JenDiamond <thejendiamond@gmail.com>
+Date:   Thu Aug 7 01:15:54 2014 -0700
+
+    Update manual-of-mob.md
+
+[33mcommit ccbbea0d5ec7b9d013513cdf099bb9677911e9d2[m
+Author: JenDiamond <thejendiamond@gmail.com>
+Date:   Thu Aug 7 00:08:31 2014 -0700
+
+    Update manual-of-mob.md
+
+[33mcommit 79f941158193c122a273e8fba6bd525ab13152c8[m
+Author: JenDiamond <thejendiamond@gmail.com>
+Date:   Wed Aug 6 23:53:14 2014 -0700
+
+    Update manual-of-mob.md
+
+[33mcommit 056563d3135f3827933254ed6a81077218147dd7[m
+Author: Jen Diamond, Josh Loper, Omowale Oniyide, Pat Maddox, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jen+josh+omowale+pat+robert+stephanie@gmail.com>
+Date:   Thu Aug 7 01:30:03 2014 +0000
+
+    Adds meow and back commands to move back and forth through objectives
+    
+    Adds before_action filter commands to allow 'meow' and 'back' to move
+    between pages
+    
+    [#74574144]
+
+[33mcommit b7096f7446dacce57c85a3d6a906c7cdae5f0b3a[m
+Author: Jen Diamond, Mike McCormick, Omowale Oniyide & Robert Wilkinson <thestandardlibrarians+jen+mike+omowale+robert@gmail.com>
+Date:   Wed Aug 6 04:06:08 2014 +0000
+
+    Adds test for updating view upon correct input.
+
+[33mcommit 069e086ba95ffe2adefcb6589f64cda23aa1c367[m
+Author: Jen Diamond, Mike McCormick, Omowale Oniyide & Robert Wilkinson <thestandardlibrarians+jen+mike+omowale+robert@gmail.com>
+Date:   Wed Aug 6 03:43:54 2014 +0000
+
+    Sets up domain object models
+    
+    Adds objective, adventure and narrative classes
+    [#76334086]
+    
+     Changes to be committed:
+    	new file:   app/assets/stylesheets/application.css.scss
+    	new file:   app/assets/stylesheets/bootstrap_and_customization.css.scss
+    	new file:   app/models/adventure.rb
+    	new file:   app/models/narrative.rb
+    	new file:   app/models/objective.rb
+    	renamed:    spec/models/adventures_spec.rb -> spec/models/adventure_spec.rb
+    	new file:   spec/models/narrative_spec.rb
+    	new file:   spec/models/objective_spec.rb
+
+[33mcommit 8effa4df5494b85a8a347c8eafb0a01df547e0df[m
+Author: Robert Wilkinson <thestandardlibrarians+robert@gmail.com>
+Date:   Tue Aug 5 23:45:12 2014 +0000
+
+    Updated spec tests to expect RUBY_VERSION 2.1.2 rather than 2.0.0
+    
+    [#75006122]
+
+[33mcommit c096e7ef7f6d2b7288f1a14bbe8ea243604c4865[m
+Author: Jen Diamond, Josh Loper, Omowale Oniyide, Pat Maddox, Robert Wilkinson & Ryan Moran <thestandardlibrarians+jen+josh+omowale+pat+robert+ryan@gmail.com>
+Date:   Tue Aug 5 06:00:24 2014 +0000
+
+    Updates Gemfile with proper Ruby version
+
+[33mcommit 9fb978d1d88d777c7333bbfaf665658066317173[m
+Author: Jen Diamond, Josh Loper, Omowale Oniyide, Pat Maddox, Robert Wilkinson & Ryan Moran <thestandardlibrarians+jen+josh+omowale+pat+robert+ryan@gmail.com>
+Date:   Tue Aug 5 04:21:44 2014 +0000
+
+    Adds spec test for Adventures
+    
+    creates spec test to check and attempt to instantiate new Adventure
+    object
+    
+    [#76334086]
+
+[33mcommit cac6b2e0e40d2b0f01f886035e5beb0336021a41[m
+Author: Jen Diamond, Omowale Oniyide, Pat Maddox, Robert Wilkinson & Ryan Moran <thestandardlibrarians+jen+omowale+pat+robert+ryan@gmail.com>
+Date:   Tue Aug 5 02:57:00 2014 +0000
+
+    Adds
+
+[33mcommit 0650c1febd8ba566c897203a5f9cafe1bfa46979[m
+Author: Jen Diamond, Omowale Oniyide, Pat Maddox, Robert Wilkinson & Ryan Moran <thestandardlibrarians+jen+omowale+pat+robert+ryan@gmail.com>
+Date:   Tue Aug 5 01:09:22 2014 +0000
+
+    Added manual of Mob File
+
+[33mcommit cfbe0cb2a5b603f20716e5131e21da2d8f5cc686[m
+Merge: 152bb9e 8751830
+Author: Jen Diamond, John Ryan, Josh Loper & Robert Wilkinson <thestandardlibrarians+jen+john+josh+robert@gmail.com>
+Date:   Tue Aug 5 01:06:33 2014 +0000
+
+    Merge branch 'objective1' of github.com:TheStandardLibrarians/featsofdaring into objective1
+
+[33mcommit 8751830935757dcdca6ed467d438d440eeaa58a7[m
+Author: Robert Wilkinson <thestandardlibrarians+robert@gmail.com>
+Date:   Fri Aug 1 21:24:08 2014 +0000
+
+    Adds commands method in helper, adds feature test for meow
+    
+    Adds custom commands method in helper to evaluate custom code. Adds
+    feature test to check that meow sends to the next page. Creates a
+    before_action in objectives controller
+    [#74574144]
+
+[33mcommit 152bb9edfcefb7cfb451214bda0a368d6040ad75[m
+Author: Jen Diamond, John Ryan, Josh Loper & Robert Wilkinson <thestandardlibrarians+jen+john+josh+robert@gmail.com>
+Date:   Fri Aug 1 04:06:00 2014 +0000
+
+    Changes status to 420 for testing
+
+[33mcommit f79a19e7f10510196c067d18b5212a1f8bb25845[m
+Author: Jen Diamond, John Ryan, Josh Loper & Robert Wilkinson <thestandardlibrarians+jen+john+josh+robert@gmail.com>
+Date:   Fri Aug 1 03:25:24 2014 +0000
+
+    Changes status code in status_controller from 301 to 200.
+    
+    Testing to see if we still get application error in heroku.
+
+[33mcommit 4e442ae42bb7f12e69f4f01573ad19470adfba6f[m
+Author: Jen Diamond, John Ryan, Josh Loper & Robert Wilkinson <thestandardlibrarians+jen+john+josh+robert@gmail.com>
+Date:   Thu Jul 31 04:02:05 2014 +0000
+
+    Updates Gemfile to specify Ruby 2.1.2
+
+[33mcommit 4620ce1747415dc8a0075196811a0ddf62405218[m
+Author: Jen Diamond, John Ryan, Josh Loper & Robert Wilkinson <thestandardlibrarians+jen+john+josh+robert@gmail.com>
+Date:   Thu Jul 31 03:28:43 2014 +0000
+
+    Tests that the ripl works in the browser.
+    
+    Creates Controller test to check ripl output of RUBY_VERSION. Creates sample form to let user input code to RIPL
+    
+    [#75864822]
+
+[33mcommit 903300c9354998f6856d7b114a0db844aa40b6b1[m
+Author: Jen Diamond, Josh Loper & Robert Wilkinson <thestandardlibrarians+jen+josh+robert@gmail.com>
+Date:   Thu Jul 31 00:05:22 2014 +0000
+
+    Adds spec/controller test to pass em gets a 301 error
+    
+    Adds spec/controller test to pass Emerald gets a 301 Error and removes feature test.
+    [#75865326]
+    
+    	renamed:    spec/controllers/status_controller.rb -> spec/controllers/status_controller_spec.rb
+    	deleted:    spec/features/emerald_gets_a_301_spec.rb
+
+[33mcommit ad54398072156bdcb75f99fbd62773c473587b2a[m
+Author: Jalil Mohammed, Jen Diamond, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jalil+jen+omowale+robert+stephanie@gmail.com>
+Date:   Wed Jul 30 03:59:52 2014 +0000
+
+    Adds StatusController to return Emerald with status codes
+    
+    Adds test for status code 301 on page '/prettyp'. Pushed to heroku at 'featsofdaring.herokuapp.com'.
+    
+    Test fails due to "Bad URI". But when visited in the browser, localhost:3000/prettyp, WEBrick gives a 301 in the terminal.
+    
+    [#75865326]
+
+[33mcommit 15c24ff9cc7933c5de47bfdad58a2a9c4244dc4d[m
+Author: Jalil Mohammed, Jen Diamond, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jalil+jen+omowale+robert+stephanie@gmail.com>
+Date:   Wed Jul 30 03:28:49 2014 +0000
+
+    Adds test for 301 page
+
+[33mcommit 6372fb1f0fc15357436004b14a7e376572870211[m
+Author: Jalil Mohammed, Jen Diamond, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jalil+jen+omowale+robert+stephanie@gmail.com>
+Date:   Wed Jul 30 01:56:42 2014 +0000
+
+    Emerald learns about making calls on the web
+    
+    Finishes putting the narrative in the browser. Uses I18n#translate to abstract the copy into the english translations.
+    
+    [finishes #74573768]
+
+[33mcommit 8885de957a2eb5764013ab6a4d133515d38cc828[m
+Author: Jen Diamond, Josh Loper, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jen+josh+omowale+robert+stephanie@gmail.com>
+Date:   Tue Jul 29 04:22:53 2014 +0000
+
+    Adds test for Emerald learns about making calls on the web
+    
+    Adds test and routing for Emerald learns to make calls on the web
+    
+    [#74573768]
+
+[33mcommit 0ec658441befec5d920e172a57594dad13e536ec[m
+Author: JenDiamond <thejendiamond@gmail.com>
+Date:   Wed Jul 23 17:34:36 2014 -0700
+
+    Update .pairs
+
+[33mcommit 4a8c2a2c459a7431ca9a24eba7ea40bd960ad51e[m
+Author: Jalil Mohammed, Jen Diamond, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jalil+jen+omowale+robert+stephanie@gmail.com>
+Date:   Wed Jul 23 03:58:29 2014 +0000
+
+    Updates the Vagrant file to forward :3000
+
+[33mcommit 0486f696b2dfa347f07969380e0fb05486b2b7f8[m
+Author: Robert Wilkinson <wilkinson.robert.a@gmail.com>
+Date:   Thu Jul 17 09:31:38 2014 -0700
+
+    Fixes spelling error in gitignore
+    
+    Spelling error
+
+[33mcommit 7571a248c7f31ebfbbc8a0802c9f69128134c2b0[m
+Merge: 65998bb 7017a69
+Author: JenDiamond <thejendiamond@gmail.com>
+Date:   Wed Jul 16 17:57:26 2014 -0700
+
+    Merge pull request #4 from TheStandardLibrarians/modified-gitignore
+    
+    Modifies gitignore to include DS_store files
+
+[33mcommit 7017a69a570e4f0a07478d0584e17664bcfa0b7e[m
+Author: Jen Diamond, Josh Loper, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jen+josh+omowale+robert+stephanie@gmail.com>
+Date:   Thu Jul 17 00:52:12 2014 +0000
+
+    Modifies gitignore to include DS_store files
+
+[33mcommit 65998bbc2caf8306f7f6f0845dcc857f2a455a0e[m
+Author: Robert Wilkinson <wilkinson.robert.a@gmail.com>
+Date:   Wed Jul 16 17:23:55 2014 -0700
+
+    Adds git to VagrantFile startup script
+
+[33mcommit 641ecf0d49fbdb3d7655961ee6a43a1a0c31813d[m
+Merge: ea1e718 e7ae62d
+Author: JenDiamond <thejendiamond@gmail.com>
+Date:   Wed Jul 16 16:28:30 2014 -0700
+
+    Merge pull request #2 from patmaddox/vagrant_postgres
+    
+    re-enable database config, add postgres header to vagrant provisioning
+
+[33mcommit e7ae62d7acd049d8ff4890e62b7b4b667d24f008[m
+Author: Pat Maddox <patmaddox@me.com>
+Date:   Tue Jul 15 10:30:16 2014 -0700
+
+    re-enable database config, add postgres header to vagrant provisioning
+
+[33mcommit ea1e71849d664c4af5de16539503253c8a50f059[m
+Author: Jalil Mohammed, Jen Diamond, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jalil+jen+omowale+robert+stephanie@gmail.com>
+Date:   Tue Jul 15 04:02:37 2014 +0000
+
+    Got bundle to work with our postgres
+    
+    [#74577190]
+
+[33mcommit f96c7108bbe6b439eac206e474e4a5bb3d141df3[m
+Author: Jalil Mohammed, Jen Diamond, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jalil+jen+omowale+robert+stephanie@gmail.com>
+Date:   Tue Jul 15 03:41:35 2014 +0000
+
+    Adds pg to the gemfile
+    
+    -We think we need to push a pg to heroku
+    [#74577190]
+
+[33mcommit 13f775da3b200185afe4452b02d65bec75a86d08[m
+Author: Jalil Mohammed, Jen Diamond, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jalil+jen+omowale+robert+stephanie@gmail.com>
+Date:   Fri Jul 11 04:13:48 2014 +0000
+
+    trying to fix heroku error
+
+[33mcommit ec280ef22f9b18b90a543c9d9b268b71829bce4a[m
+Author: Jalil Mohammed, Jen Diamond, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jalil+jen+omowale+robert+stephanie@gmail.com>
+Date:   Fri Jul 11 04:11:21 2014 +0000
+
+    removed database url because heroku error
+
+[33mcommit ff656735ec4a48da238503eec0f3e302f5c3352d[m
+Author: JenDiamond <thejendiamond@gmail.com>
+Date:   Mon Jul 14 16:34:14 2014 -0700
+
+    Update README.md
+
+[33mcommit 58181d54b03f9846221bc5fe093942fa6584d38f[m
+Author: Jen Diamond, Omowale Oniyide & Pat Maddox <thestandardlibrarians+jen+omowale+pat@gmail.com>
+Date:   Mon Jul 14 16:31:40 2014 -0700
+
+    Adds directions to install the vagrant environment in the README
+
+[33mcommit 29236a298c5b9ce2e133dbcc67c887f164782a13[m
+Author: Jen Diamond, Omowale Oniyide & Pat Maddox <thestandardlibrarians+jen+omowale+pat@gmail.com>
+Date:   Mon Jul 14 16:22:45 2014 -0700
+
+    provisions a new Vagrant Box
+
+[33mcommit 946329a986bd6c5daeca68d07aa9500acca4c2e7[m
+Merge: a4a644c f158467
+Author: JenDiamond <thejendiamond@gmail.com>
+Date:   Mon Jul 14 15:52:27 2014 -0700
+
+    Merge pull request #1 from alrs/master
+    
+    Inline Vagrantfile
+
+[33mcommit a4a644cf3a4e7e6a6b94c8d2b637852bbcec5427[m
+Author: Jen Diamond, Omowale Oniyide & Pat Maddox <thestandardlibrarians+jen+omowale+pat@gmail.com>
+Date:   Mon Jul 14 11:18:52 2014 -0700
+
+    Notes on vagrant setup
+
+[33mcommit f158467a012cfce82d17b3ad9febedd41a4ebcea[m
+Author: Lars Lehtonen <lars.lehtonen@gmail.com>
+Date:   Mon Jul 14 10:36:18 2014 -0700
+
+    removed rbenv from Vagrantfile
+
+[33mcommit b42add6d5476b02bb3f4b1a7756d692d12bb0344[m
+Author: Jen Diamond, Omowale Oniyide & Pat Maddox <thestandardlibrarians+jen+omowale+pat@gmail.com>
+Date:   Mon Jul 14 10:34:49 2014 -0700
+
+    Adds the Pivotal .pairs to our Gemfile
+
+[33mcommit 36d40cf8a5a6c3d1f0598be7187fd83f1fe832bf[m
+Author: Lars Lehtonen <lars.lehtonen@gmail.com>
+Date:   Mon Jul 14 10:27:24 2014 -0700
+
+    added Vagrantfile nodejs dependency
+    
+    removed init as a dependency in Vagrantfile
+
+[33mcommit 2517d56a33a0d785206c133203a644735fd749c6[m
+Author: Lars Lehtonen <lars.lehtonen@gmail.com>
+Date:   Mon Jul 14 10:18:26 2014 -0700
+
+    decruft Vagrantfile
+    
+    concatenate lines for apt-get
+
+[33mcommit 539ddd64bca0115dd703c9b7264d8dbe81971149[m
+Author: Lars Lehtonen <lars.lehtonen@gmail.com>
+Date:   Mon Jul 14 10:15:59 2014 -0700
+
+    install postgres, not its build-deps
+
+[33mcommit fe2ccc6c1f97b4dd84f096c08b3c3b2cf67c61cb[m
+Author: Lars Lehtonen <lars.lehtonen@gmail.com>
+Date:   Mon Jul 14 10:14:18 2014 -0700
+
+    added Vagrant inline provisioning
+
+[33mcommit 2ecec9f5a00f0f87b50d35e0dd348d5d6090efe5[m
+Author: Jen Diamond <thejendiamond@gmail.com>
+Date:   Mon Jul 14 10:00:50 2014 -0700
+
+    Merges rgsoc vagrant project
+
+[33mcommit 05d8c911f005a63cc9f715c3f9b62f5494e5447e[m
+Author: Jen Diamond <thejendiamond@gmail.com>
+Date:   Mon Jul 14 09:58:47 2014 -0700
+
+    Adds Pat Maddox to .pairs
+
+[33mcommit cbb88dde38ba7bb3a4d256bb3f9e056ead6d64b9[m
+Author: Jalil Mohammed, Jen Diamond, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jalil+jen+omowale+robert+stephanie@gmail.com>
+Date:   Fri Jul 11 04:06:55 2014 +0000
+
+    Removed sqlite from production
+
+[33mcommit 9101342f3d21bb220ba36c4c3bfd082fa1f3a851[m
+Author: Jalil Mohammed, Jen Diamond, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jalil+jen+omowale+robert+stephanie@gmail.com>
+Date:   Fri Jul 11 03:26:28 2014 +0000
+
+    Updates pairs file to add Robert
+
+[33mcommit 39aa919ae31e67dd84c74d5fb63385c46f065c8e[m
+Author: Jalil Mohammed, Jen Diamond, Omowale Oniyide, Robert Wilkinson & Stephanie Betancourt <thestandardlibrarians+jalil+jen+omowale+robert+stephanie@gmail.com>
+Date:   Fri Jul 11 03:24:33 2014 +0000
+
+    Created route and view for adventure 1 [#74573252]
+
+[33mcommit 45aa3dae0afb11607a7973e0cc21939ed2596291[m
+Author: Jen Diamond, Josh Loper, Omowale Oniyide & Stephanie Betancourt <thestandardlibrarians+jen+josh+omowale+stephanie@gmail.com>
+Date:   Thu Jul 10 04:25:22 2014 +0000
+
+    Adds homepage with title for Adventure 1
+    
+    - We removed warnings flag from .rspec because the warnings were making
+      the test results unreadable.
+    
+    [finishes #74573160]
+
+[33mcommit d7f6e4cf417e140bc3cdf6a126663a37da50be14[m
+Author: Jalil Mohammed, Jen Diamond, Omowale Oniyide & Stephanie Betancourt <thestandardlibrarians+jalil+jen+omowale+stephanie@gmail.com>
+Date:   Wed Jul 9 04:54:49 2014 +0000
+
+    Adds .pair file
+
+[33mcommit a0e6da44e7a595fc4e1b1612942de48ca7b0254f[m
+Author: Jalil Mohammed, Jen Diamond, Omowale Oniyide & Stephanie Betancourt <thestandardlibrarians+jalil+jen+omowale+stephanie@gmail.com>
+Date:   Wed Jul 9 04:21:25 2014 +0000
+
+    New Rails App
+    
+    [#74573160]
