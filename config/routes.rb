@@ -32,6 +32,8 @@ Rails.application.routes.draw do
    get :methods
    get :threads
    get :core
+   get :objective2
+   get :objective3
  end
 
 

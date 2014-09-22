@@ -1,0 +1,34 @@
+<%= render partial: "shared/navbar" %>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-6 left outline">
+      <h2>Adventure 1</h2>
+      <h3>Objective 3</h3>
+
+      <p>Cuddy is getting hungry, tired and scared. Try again.</p>
+
+      <p>Type in this code:</p>
+
+      <div class='well'><code class="code-example">Net::HTTP.get_response(URI('http://shelly.herokuapp.com'))</code></div>
+
+      <p class='psst'>( Psst: Don’t just copy and paste it; type it in. It's the best way to really learn. )</p>
+    </div>
+    <div class="col-xs-6 pull-right outline">
+      <div class="left replbox">
+        <%= form_tag repl_adventure_objective_path(1, 1) do %>
+          <%= text_field_tag :ripl_input, @ripl_output, class: "inputform", placeholder: '>>' %>
+          <%= submit_tag "submit", class: "btn btn-success btn-adventure" %>
+        <% end %>
+      </div>
+      <div class="pull-left instructions">
+        <p>enter / return - Submit code</p>
+        <p>next - Move to the next lesson</p>
+        <p>back - Return to previous lesson</p>
+      </div> 
+      <div class="smallpics pull-left">
+        <%= image_tag("200.jpg") %>
+      </div>
+    </div>
+  </div>
+</div>

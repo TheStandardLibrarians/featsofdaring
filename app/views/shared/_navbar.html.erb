@@ -7,8 +7,21 @@
    <div>
       <ul class="nav navbar-nav">
 	 <li class="active"><%= link_to "Home", root_path %></li>
-	 <li class="active"><%= link_to "Adventure 1", story_adventure_path(1) %></li>
          <li><%#= link_to "About The Standard Librarians", '#' %></li>
+
+	 <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Adventures<b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><%= link_to "HTTP Protocol - Story", story_adventure_path(1) %></li>
+
+                <li><%= link_to "HTTP Protocol - Objective 1", learn_adventure_objective_path(1,1) %></li>
+                <li><%= link_to "HTTP Protocol - Objective 2", chapters_objective2_path %></li>  
+                <li><%= link_to "HTTP Protocol - Objective 3", chapters_objective3_path %></li>
+	      </ul>
+         </li>
+
 
          <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
