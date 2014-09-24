@@ -565,7 +565,7 @@ Date:   Wed Jul 30 03:59:52 2014 +0000
 
     Adds StatusController to return Emerald with status codes
     
-    Adds test for status code 301 on page '/prettyp'. Pushed to heroku at 'featsofdaring.herokuapp.com'.
+    Adds test for status code 301 on page '/prettyp'. Pushed to heroku.
     
     Test fails due to "Bad URI". But when visited in the browser, localhost:3000/prettyp, WEBrick gives a 301 in the terminal.
     
