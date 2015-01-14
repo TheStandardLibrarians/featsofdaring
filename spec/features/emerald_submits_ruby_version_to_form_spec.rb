@@ -8,6 +8,6 @@ feature 'Emerald visits the app' do
     visit '/adventures/1/objectives/1/learn'
     fill_in 'ripl_input', with:  'RUBY_VERSION'
     click_button 'submit'
-    expect(find_field('ripl_input').value).to eq '2.1.2'
+    expect(find_field('ripl_input').value).to eq '2.1.5'
   end
 end
