@@ -47,7 +47,7 @@ Rails.application.routes.draw do
         get :review
         post :repl
       end
-    end  
+    end
   end
   #    resources
   # match '/prettyp', to: 'status#prettyp', via: 'get'
