@@ -7,6 +7,7 @@ class ObjectivesController < ApplicationController
 
   def review
     @ripl_output=evaluate('Net::HTTP.get_response(URI("http://prettyp.herokuapp.com"))')
+    @objective = Objective.find(params[:adventure_id], params[:id])
     @adventure = Adventure.find(params[:adventure_id]) 
   end
  
