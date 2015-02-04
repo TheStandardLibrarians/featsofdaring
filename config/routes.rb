@@ -5,8 +5,8 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'home#index'
 
-  namespace :stdlib do 
-    get :chapters  
+  namespace :stdlib do
+    get :chapters
     get :about
     get :team
     get :mobbing
@@ -16,7 +16,7 @@ Rails.application.routes.draw do
     get :userstories
     get :goals
   end
- 
+
  namespace :chapters do
    get :http
    get :math

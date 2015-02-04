@@ -1,29 +1,28 @@
 <%= render partial: "shared/navbar" %>
- 
+
 <div class="container-fluid">
   <div class="row">
     <div class="col-xs-6 left outline">
-    <%= render partial: "shared/adventure_title" %>
-    <%= render partial: "shared/objective_title" %>
+      <%= render partial: "shared/adventure_title" %>
+      <%= render partial: "shared/objective_title" %>
 
-    <%= simple_format t("adventure.one.objective1.copy")%>
+      <%= simple_format t("adventure.one.objective1.copy")%>
     </div>
     <div class="col-xs-6 pull-right outline">
       <div class="left replbox">
-      <%= form_tag repl_adventure_objective_path do %>
-        <%= text_field_tag :ripl_input, @ripl_output, class: "inputform" %>
-        <%= submit_tag "submit", class: "btn btn-success btn-adventure" %>
-      <% end %>
+        <%= form_tag repl_adventure_objective_path do %>
+          <%= text_field_tag :ripl_input, @ripl_output, class: "inputform" %>
+          <%= submit_tag "submit", class: "btn btn-success btn-adventure" %>
+        <% end %>
       </div>
-    <div class="pull-left instructions">
-      <p>enter / return - Submit code</p>
-      <p>next - Move to the next lesson</p>
-      <p>back - Return to previous lesson</p>
+      <div class="pull-left instructions">
+        <p>enter / return - Submit code</p>
+        <p>next - Move to the next lesson</p>
+        <p>back - Return to previous lesson</p>
+      </div>
+      <div class="smallpics pull-left">
+        <%= image_tag("301.jpg") %>
+      </div>
     </div>
-    <div class="smallpics pull-left">
-      <%= image_tag("301.jpg") %>
-    </div>
- </div>
+  </div>
 </div>
-</div>
-

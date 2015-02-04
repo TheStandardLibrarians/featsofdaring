@@ -7,21 +7,22 @@ class ObjectivesController < ApplicationController
 
   def review
     @ripl_output=evaluate('Net::HTTP.get_response(URI("http://prettyp.herokuapp.com"))')
-    @adventure = Adventure.find(params[:adventure_id]) 
+    @adventure = Adventure.find(params[:adventure_id])
+@objective = Objective.find(params[:adventure_id], params[:id])
   end
- 
+
   def correct?
     @ripl_output.class.name.include? 'Net::HTTPMovedPermanently'
   end
 
   def repl
     @ripl_output=evaluate(params[:ripl_input])
-    if meow? 
+    if meow?
       redirect_to learn_adventure_objective_path(1,2)
     elsif correct?
       redirect_to review_adventure_objective_path(1,1)
     else
-      learn 
+      learn
       render :learn
     end
   end

@@ -3,7 +3,7 @@ require 'rails_helper'
 feature 'Emerald visits adventure 1 objective 1' do
   scenario 'learns about the narrative' do
     visit '/adventures/1/objectives/1/learn'
-    save_and_open_page
+#    save_and_open_page
     expect(page).to have_content 'On the right, in the terminal window try placing a call to PrettyP.'
   end
 
