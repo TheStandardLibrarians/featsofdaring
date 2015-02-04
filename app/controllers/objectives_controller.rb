@@ -8,7 +8,7 @@ class ObjectivesController < ApplicationController
   def review
     @ripl_output=evaluate('Net::HTTP.get_response(URI("http://prettyp.herokuapp.com"))')
     @adventure = Adventure.find(params[:adventure_id])
-@objective = Objective.find(params[:adventure_id], params[:id])
+    @objective = Objective.find(params[:adventure_id], params[:id])
   end
 
   def correct?
