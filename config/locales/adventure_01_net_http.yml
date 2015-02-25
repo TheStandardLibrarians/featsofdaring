@@ -1,0 +1,22 @@
+en:
+  adventure_1_net_http:
+    hiaku: "The curious cat"
+    story: "story"
+    objective_1:
+      learn: "learn one"
+      code_to_submit: "code to submit one"
+      hint: "hint one"
+      review: "review one \n
+               new line"
+    objective_2:
+      learn: "learn two"
+      code_to_submit: "code to submit two"
+      hint: "hint two"
+      review: "review two"
+    objective_3:
+      learn: "learn three"
+      code_to_submit: "code to submit three"
+      hint: "hint three"
+      review: "review three"  
+
+# <%= t('adventure_1_net_http.objective_1.hint') %>

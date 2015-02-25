@@ -6,7 +6,7 @@
       <%= render partial: "shared/adventure_title" %>
       <%= render partial: "shared/objective_title" %>
 
-      <%= simple_format t("adventure.one.objective1.copy")%>
+      <%= simple_format t("adventure_#{params[:adventure_id]}_net_http.objective_#{params[:id]}.review")%>
     </div>
     <div class="col-xs-6 pull-right outline">
       <div class="left replbox">

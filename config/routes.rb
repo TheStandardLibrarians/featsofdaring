@@ -36,7 +36,6 @@ Rails.application.routes.draw do
    get :objective3
  end
 
-
   resources :adventures, only: []  do
     member do
       get :story
