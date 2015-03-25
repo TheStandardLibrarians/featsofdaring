@@ -14,7 +14,7 @@ feature 'Emerald visits adventure 1 objective 1' do
     fill_in 'ripl_input', with:  'Net::HTTP.get_response(URI(\'http://prettyp.herokuapp.com\'))'
     click_button 'submit'
       expect(current_path).to eq review_adventure_objective_path(1, 1)
-      expect(page).to have_content 'review one'
+      expect(page).to have_content 'You just made a call'
       expect(find_field('ripl_input').value).to include 'Net::HTTPMovedPermanently'
   end
 

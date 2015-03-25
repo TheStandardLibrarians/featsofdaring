@@ -1,13 +1,25 @@
 en:
   adventure_1_net_http:
-    hiaku: "The curious cat"
-    story: "story"
+    hiaku: "The curious cat\n
+Falling down down down the well\n
+Cuddy needs your help!"
+    story: "Oh no! Cuddy ran ahead of Mr. Chips and fell down a well. There are snakes in the well. Cuddy finds a tin can with a string leading to the top of the well.\n
+
+He needs your help to place the call (he thinks the phone works). Let’s try to call Cuddy’s agent, PrettyP. to help get poor Cuddy out of that dirty, cold well before it gets dark."
     objective_1:
-      learn: "learn one"
-      code_to_submit: "code to submit one"
-      hint: "hint one"
-      review: "review one \n
-               new line"
+      learn: "On the right, in the Interactive Ruby terminal window try
+placing a call to PrettyP., Cuddy’s friend, so she can help Cuddy get out of the well."
+      code_to_submit: "Type in this code:
+$ Net::HTTP.get_response('http://featsofdaring.herokuapp.com')"
+      hint: "( Psst: Don’t type in the $ sign. That just means type it in to the section on the right. )"
+      response_expected: "301"
+      review: "You just made a call to the web. You used a library from the Ruby Standard library called net/http to place a call on the web. By making the request you discover that the web page moved. \n
+
+What does this mean? Let’s break that down a bit... When Cuddy calls Pretty P. he can’t reach her because Pretty P. has moved to Hollywood.\n 
+
+Just like if you call someone’s phone number who has moved; you would hear a disconnect message from the operator. The web has similar messages. A 301 Error means that the web page has moved. You are often re-directed to a different page without even seeing this error."
+      move_forward: "To move forward type in the language the cats understand. Type meow."
+
     objective_2:
       learn: "learn two"
       code_to_submit: "code to submit two"
@@ -20,3 +32,64 @@ en:
       review: "review three"  
 
 # <%= t('adventure_1_net_http.objective_1.hint') %>
+
+
+      response_expected: "301"
+
+      review: "You just made a call to the web. You used a library from the Ruby Standard library called net/http to place a call on the web. By making the request you discover that the web page moved. 
+
+What does this mean? Let’s break that down a bit... When Cuddy calls Pretty P. he can’t reach her because Pretty P. has moved to Hollywood. 
+
+Just like if you call someone’s phone number who has moved; you would hear a disconnect message from the operator. The web has similar messages. A 301 Error means that the web page has moved. You are often re-directed to a different page without even seeing this error."
+
+      move_forward: "To move forward type in the language the cats understand.
+Type meow."
+
+    objective2:
+      learn: "Cuddy still needs your help. She’s getting cold.
+
+Let’s try to contact Cuddy’s friend Shelly. She’s usually home. She’s pretty
+shy.
+
+On the right, in the Interactive Ruby terminal window try placing a call to
+Shelly. Maybe she can help Cuddy get out of the well."
+
+      code_to_submit: "Type in this code: $ Net::HTTP.get_response(URI('http://featsofdaring.herokuapp.com/shellfish.html'))"
+
+      hint: "( Psst: Don't be tempted to copy and paste it and don't type the
+$ sign.)"
+
+      review: "Shelly, Shelly, Shelly. Where are you? Cuddy needs your help.
+
+When you get an error, the first thing, the best thing, you can do is to read
+the error message. This can be hard at first because it might look like you
+broke something but don’t worry, you didn’t. It is just the computer talking
+to you. (Now you can see why computers don’t get a lot of dates.)
+
+Take your time reading the error, read it a few times. Look for the part that
+seems to be telling you something. Look at your code did you do something
+wrong? Shelly, where are you?"
+
+    objective3:
+      learn: "Hmmmm, what could be wrong?
+What are good first steps to figure out what went wrong? 
+The only real clue we have is... 
+you guessed it; the error message. 
+
+It says that you got a 404 Not Found status code. 
+What?? Did you type in the right thing? Yup!  
+ A 404 error is returned when a webpage has been deleted, moved or the page just does not
+exist. 
+
+Maybe you did nothing wrong and that page does doesn't exist.
+Wait did I use Shelly's nickname to call her. Ooops.
+No wonder, I call Shelly Shellfish. Let's try her real name."
+
+      code_to_submit: "Type in this code:
+$Net::HTTP.get_response(URI('http://featsofdaring.herokuapp.com/shelly.html'))"
+
+      review: "hooray we have succeeded in our first adventure. You have
+helped Cuddy place his call to Shelly. She sent the birds over to get Cuddy out of the well.
+Notice the Status Code you received this time. It's a 200 Success Code." 
+
+    

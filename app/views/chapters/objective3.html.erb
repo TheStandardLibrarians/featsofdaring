@@ -17,7 +17,7 @@
     </div>
     <div class="col-xs-6 pull-right outline">
       <div class="left replbox">
-        <%= form_tag repl_adventure_objective_path(1, 1) do %>
+        <%= form_tag review_adventure_objective_path(1, 1) do %>
           <%= text_field_tag :ripl_input, @ripl_output, class: "inputform", placeholder: '>>' %>
           <%= submit_tag "submit", class: "btn btn-success btn-adventure" %>
         <% end %>
