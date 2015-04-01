@@ -9,8 +9,8 @@
       <p>On the right, in the terminal window try placing a call to PrettyP.</p>
 
       <p>Type in this code:</p>
-
-      <div class='well'><code class="code-example">Net::HTTP.get_response(URI('http://prettyp.herokuapp.com'))</code></div>
+      <div class='well'><code class="code-example">
+      <%= t("adventure_#{params[:adventure_id]}_net_http.objective_#{params[:id]}.code_to_submit")%></code></div>
 
       <p class='psst'>( Psst: Don’t just copy and paste it; type it in. It's the best way to really learn. )</p>
     </div>
